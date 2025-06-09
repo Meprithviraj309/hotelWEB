@@ -1,0 +1,107 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('/src/assets/restaurant-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Card styling */
+.card {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border: none !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Navbar styling */
+.navbar {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* Table styling */
+.table {
+  background: rgba(255, 255, 255, 0.9) !important;
+  color: #333 !important;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #ff6b6b !important;
+  border-color: #ff6b6b !important;
+}
+
+.btn-primary:hover {
+  background-color: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+
+/* Modal styling */
+.modal-content {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Form styling */
+.form-control {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Badge styling */
+.badge {
+  font-weight: 500;
+  padding: 0.5em 1em;
+} 

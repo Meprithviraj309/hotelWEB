@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Card Hover Effects */
+.hover-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Card Content Styles */
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Icon Colors */
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+} 
